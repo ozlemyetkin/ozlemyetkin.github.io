@@ -1060,7 +1060,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(../img/banner/banner.jpg);
+  background-image: url(../img/banner/banner1.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
@@ -1137,7 +1137,7 @@ h3 {
   color: #ffffff;
   font-weight: 400;
   font-family: "Playfair Display", serif;
-  font-size: 56px;
+  font-size: 52px;
   line-height: 68px;
   position: relative;
   z-index: 8;
