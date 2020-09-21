@@ -1060,7 +1060,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(../img/banner/banner_white.jpg);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
@@ -1071,6 +1071,7 @@ h3 {
 /* line 7, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area {
   padding: 0 50px;
+  background: #000;
 }
 
 @media (max-width: 767px) {
@@ -1133,7 +1134,7 @@ h3 {
 
 /* line 41, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area_inner .single_slider .slider_text h3 {
-  color: #000;
+  color: #ffffff;
   font-weight: 400;
   font-family: "Playfair Display", serif;
   font-size: 56px;
@@ -1182,7 +1183,7 @@ h3 {
 .slider_area_inner .single_slider .slider_text p {
   font-size: 26px;
   font-weight: 400;
-  color: #b4b4b4;
+  color: #C7C7C7;
   margin-bottom: 50px;
   margin-top: 16px;
   line-height: 32px;
