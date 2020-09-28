@@ -61,12 +61,11 @@ $(document).ready(function () {
         submitHandler: function (form) {
           $(form).ajaxSubmit({
             type: "POST",
-            header: { "Access-Control-Allow-Origin": "*" },
-            crossDomain: true,
             data: $(form).serialize(),
             url:
-              "https://docs.google.com/forms/u/5/d/e/1FAIpQLScDChVKeB5OJUglzQrpPgmpQCyYXbOkm6cTdmvRdrA38a-TlQ/formResponse",
+              "https://cors-anywhere.herokuapp.com/https://docs.google.com/forms/u/5/d/e/1FAIpQLScDChVKeB5OJUglzQrpPgmpQCyYXbOkm6cTdmvRdrA38a-TlQ/formResponse",
             success: function () {
+              console.log("buraya düştü mü");
               $("#contactForm :input").attr("disabled", "disabled");
               $("#contactForm").fadeTo("slow", 1, function () {
                 $(this).find(":input").attr("disabled", "disabled");
