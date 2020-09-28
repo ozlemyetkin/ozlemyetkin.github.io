@@ -61,6 +61,8 @@ $(document).ready(function () {
         submitHandler: function (form) {
           $(form).ajaxSubmit({
             type: "POST",
+            header: { "Access-Control-Allow-Origin": "*" },
+            crossDomain: true,
             data: $(form).serialize(),
             url:
               "https://docs.google.com/forms/u/5/d/e/1FAIpQLScDChVKeB5OJUglzQrpPgmpQCyYXbOkm6cTdmvRdrA38a-TlQ/formResponse",
